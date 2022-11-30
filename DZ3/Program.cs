@@ -4,19 +4,15 @@
 // a = -9 b = -3 -> max = -3, min = -9
 
 Console.WriteLine("Вывести на экран два числа:");
-
-Console.WriteLine("Первое число:");
-int a = Convert.ToInt32(Console.Read());
-Console.WriteLine("Второе число:");
-int b = Convert.ToInt32(Console.Read());
-int max = a;
-if (a > b) max = a;
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+if (a>b)
 {
   Console.WriteLine("max = a");
 }
-Console.WriteLine("Второе число:");
-
-if (a>b) max = b;
+else
 {
-    Console.WriteLine("min = b");
+  Console.WriteLine("min = b");
 }
+
+

@@ -9,7 +9,7 @@ int numberA = Convert.ToInt32(Console.ReadLine());    // создаем пере
 
 
 Console.WriteLine("Введите второе число:");            //выводим второе цисло
-int numberB = Convert.ToInt32(Console.ReadLine());     //создаем переменную конвентируем выводим с консоли
+int numberB = Convert.ToInt32(Console.ReadLine());    //создаем переменную конвентируем выводим с консоли
 if (numberB * numberB == numberA)                      //если numberB * numberB == numberA
 {          
     Console.WriteLine("да");                           //тогда выводим на экран да

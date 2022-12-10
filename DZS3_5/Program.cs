@@ -10,9 +10,9 @@
 
 Console.WriteLine("Введите число:");
 int a = Convert.ToInt32(Console.ReadLine());
-if (a <10000 && a > 99999)
+if (a <10000 || a > 99999)
 {
-    Console.WriteLine("Введите пятизначное число");
+   Console.WriteLine("Введите пятизначное число");
 }
 
 

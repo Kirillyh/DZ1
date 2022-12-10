@@ -6,20 +6,35 @@
 
 // 32679 -> 6
 
-Console.WriteLine("Введите число:");
+// Console.WriteLine("Введите число:");
 
+// int a = Convert.ToInt32(Console.ReadLine());
+
+// if (a <= 100)
+// {
+//     Console.WriteLine("Третьей цифры нет");
+// }
+// int b = (a / 100)%10;                        // Нахождение третьей цифры в числе
+
+
+// Console.WriteLine(b);
+
+// if (a >= 100000)
+// {
+//     Console.WriteLine("Много цифр )");
+// }
+
+Console.WriteLine("Введите число:");
 int a = Convert.ToInt32(Console.ReadLine());
 
-if (a <= 100)
+if (a < 100)
 {
     Console.WriteLine("Третьей цифры нет");
 }
-int b = (a / 100)%10;                        // Нахождение третьей цифры в числе
-
-
-Console.WriteLine(b);
-
-if (a >= 100000)
+while (a > 1000)
 {
-    Console.WriteLine("Много цифр )");
+    a = a / 10;                        //// Нахождение третьей цифры в числе
 }
+a = a % 10;
+
+Console.WriteLine(a);

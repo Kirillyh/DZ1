@@ -16,7 +16,7 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 
 // int x3 = x1 -x2;
 // int y3 = y1 - y2;
-// double respoun = Math.Pow(x3, 2);              //  Формула AB = √AC2 + BC2  
+// double respoun = Math.Pow(x3, 2);              //  Формула AB = КОРЕНЬ (Xb - Xa)2 + (Yb - Ya)2
 // double respoun2 = Math.Pow(y3, 2);              //  Math.Pow - возведения числа в степень
 // double simpow = respoun + respoun2;
 // double result = Math.Sqrt(simpow);              //  Math.Sqrt - математическая функция которая извлекает квадратный корень.

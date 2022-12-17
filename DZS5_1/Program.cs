@@ -16,7 +16,7 @@ int[] GetRandomArray(int length, int leftRange, int rightRange)  //Метод к
 
 // 1. сумма положительных элементов
 // 2. сумма отрицательных элементов
-(int, int) SumPositiveAndNegative(int[] array)  // Возвратить два челых числа 
+(int, int) SumPositiveAndNegative(int[] array)  // Возвратить два челых числа КОРТЕЖ
 {
     int sumPositive = 0;
     int sumNegative = 0;

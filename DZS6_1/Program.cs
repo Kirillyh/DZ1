@@ -2,10 +2,6 @@
 // [1 2 3 4 5] -> [5 4 3 2 1]
 // [6 7 3 6] -> [6 3 7 6]
 
-
-
-
-
 int[] GetRandomArray(int length, int leftRange, int rightRange)  //Метод который возврашает массив случайными целыми чмслами
 {
     int[] array = new int[length]; 

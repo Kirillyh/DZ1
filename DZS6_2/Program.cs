@@ -6,7 +6,7 @@
 int number = 44;
 PrintBinaryView(number);
 
-void PrintBinaryView(int n)   // Рекурсия 
+void PrintBinaryView(int n)   // Рекурсия Не понятно
 {
     if (n <= 0) return;
     PrintBinaryView(n / 2);
